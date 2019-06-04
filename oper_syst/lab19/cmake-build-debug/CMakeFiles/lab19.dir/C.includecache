@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Projects/os/lab19/main.c
+stdio.h
+-
+dirent.h
+-
+sys/stat.h
+-
+fnmatch.h
+-
+string.h
+-
+malloc.h
+-
+

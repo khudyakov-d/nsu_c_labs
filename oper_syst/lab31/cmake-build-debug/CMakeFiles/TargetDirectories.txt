@@ -1,0 +1,3 @@
+/home/daniel/Projects/os/lab31/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniel/Projects/os/lab31/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniel/Projects/os/lab31/cmake-build-debug/CMakeFiles/lab31.dir

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Projects/os/lab20/main.c
+unistd.h
+-
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+wait.h
+-
+

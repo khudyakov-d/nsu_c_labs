@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Projects/os/lab6/main.c
+stdio.h
+-
+malloc.h
+-
+fcntl.h
+-
+zconf.h
+-
+signal.h
+-
+errno.h
+-
+

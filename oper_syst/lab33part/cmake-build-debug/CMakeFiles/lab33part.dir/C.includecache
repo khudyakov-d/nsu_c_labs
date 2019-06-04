@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Projects/os/lab33part/main.c
+stdio.h
+-
+sys/sem.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+zconf.h
+-
+

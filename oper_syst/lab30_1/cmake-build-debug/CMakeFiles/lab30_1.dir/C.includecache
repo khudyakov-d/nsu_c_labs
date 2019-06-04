@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Projects/os/lab30_1/main.c
+stdio.h
+-
+stdio.h
+-
+zconf.h
+-
+memory.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+
