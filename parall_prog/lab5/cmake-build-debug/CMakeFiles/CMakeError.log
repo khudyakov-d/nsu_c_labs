@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e3ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e3ea.dir/build.make CMakeFiles/cmTC_0e3ea.dir/build
+make[1]: вход в каталог «/home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0e3ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_0e3ea.dir/CheckSymbolExists.c.o   -c /home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0e3ea
+/home/daniel/optHome/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3ea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0e3ea.dir/CheckSymbolExists.c.o  -o cmTC_0e3ea 
+CMakeFiles/cmTC_0e3ea.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e3ea.dir/build.make:86: recipe for target 'cmTC_0e3ea' failed
+make[1]: *** [cmTC_0e3ea] Error 1
+make[1]: выход из каталога «/home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp»
+Makefile:121: recipe for target 'cmTC_0e3ea/fast' failed
+make: *** [cmTC_0e3ea/fast] Error 2
+
+File /home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5aff3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5aff3.dir/build.make CMakeFiles/cmTC_5aff3.dir/build
+make[1]: вход в каталог «/home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5aff3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_5aff3.dir/CheckFunctionExists.c.o   -c /home/daniel/optHome/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5aff3
+/home/daniel/optHome/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aff3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5aff3.dir/CheckFunctionExists.c.o  -o cmTC_5aff3 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5aff3.dir/build.make:86: recipe for target 'cmTC_5aff3' failed
+make[1]: *** [cmTC_5aff3] Error 1
+make[1]: выход из каталога «/home/daniel/Projects/opp/lab5/cmake-build-debug/CMakeFiles/CMakeTmp»
+Makefile:121: recipe for target 'cmTC_5aff3/fast' failed
+make: *** [cmTC_5aff3/fast] Error 2
+
+

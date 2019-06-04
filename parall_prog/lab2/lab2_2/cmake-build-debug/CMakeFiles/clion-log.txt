@@ -1,0 +1,6 @@
+/home/daniel/optHome/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/daniel/Projects/opp/lab2/lab2_2
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/Projects/opp/lab2/lab2_2/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fopenmp -g    CMakeFiles/lab2_2.dir/main.c.o  -o lab2_2 -lm 
