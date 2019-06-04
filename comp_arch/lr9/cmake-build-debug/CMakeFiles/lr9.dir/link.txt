@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lr9.dir/main.cpp.o  -o lr9 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lr8.dir/main.cpp.o  -o lr8 

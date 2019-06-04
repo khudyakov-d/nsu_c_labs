@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lr6.dir/main.cpp.o  -o lr6 -lusb-1.0 
