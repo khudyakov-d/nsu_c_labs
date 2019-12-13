@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/proxy2.dir/main.c.o CMakeFiles/proxy2.dir/http_parser.c.o CMakeFiles/proxy2.dir/http_parser_callbacks.c.o CMakeFiles/proxy2.dir/cache.c.o CMakeFiles/proxy2.dir/info.c.o  -o proxy2 -lpthread 

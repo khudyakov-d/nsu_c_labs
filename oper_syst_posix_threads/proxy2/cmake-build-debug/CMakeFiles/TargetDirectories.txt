@@ -1,0 +1,3 @@
+/home/daniel/Projects/os_posix/proxy2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniel/Projects/os_posix/proxy2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniel/Projects/os_posix/proxy2/cmake-build-debug/CMakeFiles/proxy2.dir
